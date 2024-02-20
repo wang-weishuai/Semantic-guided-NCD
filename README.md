@@ -1,7 +1,12 @@
 # Semantic-guided-NCD
 
-Here is our implementation for Semantic-guided Novel Category Discovery.
+Official implementation for paper: Semantic-Guided Novel Category Discovery.
 
+By Weishuai Wang, Ting Lei, Qingchao Chen and Yang Liu.
+
+The paper has been accepted by IEEE/CVF Association for the Advancement of Artificial Intelligence (AAAI), 2024
+
+[Paper](https://semantic-guided-ncd.github.io/img/SNCDpaper.pdf)  [Homepage](https://semantic-guided-ncd.github.io/)
 ## Introduction
 The Novel Category Discovery problem aims to cluster an unlabeled set with the help of a labeled set consisting of disjoint but related classes. However, many real-world applications require recognition as well as clustering for novel categories. We propose a new setting named **Semantic-guided Novel Category Discovery (SNCD)**, which extends NCD to enable recognition by introducing semantic labels of the unlabeled categories which is easy and cheap to get in form of word vectors of category names, and we demonstrate the recognition task and the clustering task can benefit from each other and jointly optimize. We convert zero-shot recognition to a cross-modal retrieval task by constructing a dynamic multi-modal Memory Bank to project visual features to the label space. Besides, we adopt mutual information maximization to transfer information between two tasks. Experiments on multiple datasets demonstrate the effectiveness of our approach.
 
